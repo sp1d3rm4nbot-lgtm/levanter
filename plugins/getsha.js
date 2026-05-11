@@ -4,7 +4,6 @@ const { bot } = require('../lib/')
 bot(
   {
     pattern: 'getsha ?(.*)',
-    fromMe: true,
     desc: 'Récupère le SHA256 d un sticker',
     type: 'misc',
   },
